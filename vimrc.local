@@ -1,0 +1,30 @@
+" This file will be loaded at the end of .vimrc.
+set scrolloff=3            " 设置到底部时距离有三行高 " {
+set guioptions=
+set vb t_vb=               " 关闭错误时的提示声
+set wrap                   " 自动换行
+set autoread               " 当外部改变文件时自动加载
+set undofile               " 可以无限撤消
+set undodir=~/.vim/.undodir " 无限撤消时的目录
+set undolevels=999
+set textwidth=90
+set colorcolumn=90
+set cmdheight=2
+set cursorcolumn
+set cursorline
+set tabstop=4
+set shiftwidth=4
+set list                    " 显示特殊字符
+set listchars=tab:\┊\ ,trail:░,eol:┐
+let mapleader=','
+autocmd BufWritePre *.go :Fmt
+"minibufexplorerpp"
+let g:miniBufExplMapCTabSwitchBufs=1
+let g:miniBufExplMapWindowNavVim=1
+set foldmethod=indent foldmarker={,} foldlevel=99
+" Use this option to define the table corner character
+let g:table_mode_corner = '+'
+" Use this option to define the delimiter which used by
+let g:table_mode_delimiter = '='
+au BufRead,BufNewFile *.pl6 set ft=perl6 syntax=perl
+source ~/.vim/commplice.vim

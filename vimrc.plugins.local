@@ -1,0 +1,60 @@
+"Plugin 'AutoClose'
+Plugin 'Raimondi/delimitMate'
+Plugin 'oscarh/vimerl'
+Plugin 'terryma/vim-multiple-cursors'
+Plugin 'cespare/vim-golang'
+Plugin 'dgryski/vim-godef'
+Plugin 'Blackrush/vim-gocode'
+Plugin 'vim-scripts/minibufexplorerpp'
+Plugin 'rust-lang/rust.vim'
+Plugin 'sheerun/vim-polyglot'
+Plugin 'keith/swift.vim'
+Plugin 'toyamarinyon/vim-swift'
+Plugin 'spf13/PIV'
+Plugin 'benmills/vimux'
+Plugin 'dhruvasagar/vim-table-mode'
+Plugin 'airblade/vim-gitgutter'
+Plugin 'vim-scripts/vcscommand.vim'
+Plugin 'elixir-lang/vim-elixir'
+
+" YouCompleteMe
+" Plugin 'Valloric/YouCompleteMe'
+" let g:ycm_global_ycm_extra_conf = "~/.vim/.ycm_extra_conf.py"
+" let g:ycm_error_symbol = '✗'
+" let g:ycm_warning_symbol = '⚠'
+" nnoremap <leader>gl :YcmCompleter GoToDeclaration<CR>
+" nnoremap <leader>gf :YcmCompleter GoToDefinition<CR>
+" nnoremap <leader>gg :YcmCompleter GoToDefinitionElseDeclaration<CR>
+" " nmap <F4> :YcmDiags<CR>
+" let g:ycm_semantic_triggers =  {
+  " \   'c' : ['->', '.'],
+  " \   'objc' : ['->', '.', 're!\[[_a-zA-Z]+\w*\s', 're!^\s*[^\W\d]\w*\s',
+  " \             're!\[.*\]\s'],
+  " \   'ocaml' : ['.', '#'],
+  " \   'cpp,objcpp' : ['->', '.', '::'],
+  " \   'perl' : ['->'],
+  " \   'php' : ['->', '::'],
+  " \   'cs,java,javascript,typescript,d,python,perl6,scala,vb,elixir,go' : ['.'],
+  " \   'ruby' : ['.', '::'],
+  " \   'lua' : ['.', ':'],
+  " \   'erlang' : [':'],
+  " \ }
+" let g:ycm_filetype_blacklist = {
+      " \ 'tagbar' : 1,
+      " \ 'qf' : 1,
+      " \ 'notes' : 1,
+      " \ 'markdown' : 1,
+      " \ 'unite' : 1,
+      " \ 'text' : 1,
+      " \ 'vimwiki' : 1,
+      " \ 'gitcommit' : 1,
+      " \}
+
+Plugin 'SirVer/ultisnips'
+Plugin 'honza/vim-snippets'
+let g:UltiSnipsExpandTrigger="<c-e>"
+let g:UltiSnipsjumpForwardTrigger="<c-j>"
+let g:UltiSnipsJumpBackwardTrigger="<c-t>"
+let g:UltiSnipsEditSplit="vertical"
+
+Plugin 'suan/vim-instant-markdown'
